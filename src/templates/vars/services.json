@@ -1,0 +1,57 @@
+{
+  "services":[
+    {
+      "doubleWide": false,
+      "title": "Implant Dentistry",
+      "titleMobil": "Implant Dentistry",
+      "titleFull": "Implant Dentistry",
+      "image": "implant.jpg",
+      "modalTarget": "implant",
+      "text": ["Dental implants are a great option for replacing missing teeth, improving chewing ability, eliminating bridges, and replacing dentures.",
+        "Several implants may provide a base for a series of artificial teeth known as a fixed bridge. Implants can even be used to secure a full set of removable dentures for people who have no remaining natural teeth."]
+    },
+    {
+      "doubleWide": false,
+      "title": "Veneers",
+      "titleFull": "Veneers",
+      "image": "veneers.jpg",
+      "modalTarget": "veneers",
+      "text": ["Veneers are very thin porcelain pieces that are custom made to adhere directly to the front of teeth without grinding or shaving. Transform your smile without drilling on your natural teeth!",
+        "In the hands of a highly skilled dentist, porcelain laminates can provide you with an incredibly natural, beautiful smile. They are virtually undetectable and can dramatically improve your appearance. They are durable and long-lasting when compared to other cosmetic treatments."]
+    },
+    {
+      "doubleWide": false,
+      "title": "Bonding",
+      "titleFull": "Cosmetic Bonding",
+      "image": "bonding.jpg",
+      "modalTarget": "bonding",
+      "text": ["Composite resin is a white, tooth colored material that can be shaded to match your teeth. This material can give you a low-cost improvement in your smile."]
+    },
+    {
+      "doubleWide": false,
+      "title": "Sedation Dentistry",
+      "titleFull": "Sedation Dentistry",
+      "image": "sedation.jpg",
+      "modalTarget": "sedation",
+      "text": ["Sedation dentistry is an excellent treatment for patients with extensive dental needs, or who are concerned about anxiety, difficulty getting numb, or sensitive teeth."]
+    },
+    {
+      "doubleWide": false,
+      "title": "Digital X-Rays",
+      "titleFull": "Digital X-Rays (or Digital Radiography)",
+      "image": "digital-xrays.jpg",
+      "modalTarget": "xrays",
+      "text": ["Our use of digital x-ray technology reduces your radiation exposure and eliminates the use of chemicals. It’s better for you and the environment.",
+        "It's also easy for you to see what the doctor sees. Your digital x-ray can be seen on a computer screen located next to your dental chair. This helps you understand your needs and make informed choices about your treatment."]
+    },
+    {
+      "doubleWide": false,
+      "title": "Crowns and Bridges",
+      "titleFull": "Porcelain Crowns & Bridges",
+      "image": "crowns-bridges.jpg",
+      "modalTarget": "crowns",
+      "text": ["Protect and keep badly decayed or fractured teeth while maintaining a beautiful smile. Made to perfectly match the shape and shade of your other teeth, they’re durable, strong, and undetectable.",
+        "Crowns should be placed before the tooth is so decayed that it may fracture. This can often help prevent the expense of root canal therapy in the future. If a tooth is too damaged to have a crown applied, a porcelain bridge may be a good alternative."]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+#section-about {
+  background-image: url(/assets/bio-bg-diag.jpg);
+  background-repeat: repeat;
+
+  .heading {
+    padding-top: 45px;
+    padding-bottom: 30px;
+    text-align: center;
+
+    &__main {
+      color: #183163;
+      margin-bottom: 30px;
+      line-height: 1;
+    }
+
+    &__byline {
+      color: #393939;
+
+      @media (min-width: 768px) {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+    }
+  }
+
+  .bio-card {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+
+    &__container {
+      max-width: 1340px;
+      padding: 0 0 45px;
+    }
+
+    &__image {
+      img {
+        width: 100%;
+      }
+    }
+
+    &__title {
+      color: #183163;
+      margin-top: 30px;
+      padding-bottom: 20px;
+      border-bottom: solid 1px #0a79bd;
+
+      &--small {
+        font-size: 20px;
+      }
+    }
+
+    &__copy {
+      color: #393939;
+      font-size: 16px;
+    }
+  }
+
+  .full-width-carousel-arrows {
+    position: relative;
+
+    .container {
+      position: static;
+    }
+
+    .owl-carousel {
+      position: static;
+    }
+  }
+}
