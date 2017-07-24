@@ -8,6 +8,7 @@ button.btn {
   border-radius: 0;
   border: solid 2px #fff;
   padding: 10px 50px;
+  text-transform: uppercase;
   //box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.36);
 
   @include font-size(22px, 21px, 19px, 18px, 16px);
@@ -23,13 +24,13 @@ button.btn {
   }
 
   &.btn--style-two {
-    background-color: #f06123;
+    background-color: rgba(0, 0, 0, 0);
     color: #fff;
     //box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.36);
 
     &:hover,
     &:focus {
-      background-color: darken(#f06123, 15%);
+      background-color: rgba(0, 0, 0, 0.2);
       //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.d46);
     }
   }
