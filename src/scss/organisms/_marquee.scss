@@ -31,8 +31,9 @@
 
   .slide1 {
     .slide__title {
+      text-shadow: 0 3px 10px #000;
       color: #fff;
-      line-height: 1;
+      line-height: 0.9;
       margin-bottom: 0;
       font-family: $ff-raleway;
       font-weight: 700;
@@ -41,6 +42,7 @@
     }
 
     .slide__byline {
+      text-shadow: 0 3px 10px rgba(0, 0, 0, 0.45);
       color: #fff;
       font-family: $ff-tav;
       font-style: italic;
@@ -60,65 +62,76 @@
 
   .slide2 {
     .slide__title {
-      color: #f05423;
-      font-weight: 700;
+      text-shadow: 0 3px 10px #000;
+      color: #fff;
+      line-height: 0.9;
       margin-bottom: 0;
+      font-family: $ff-raleway;
+      font-weight: 700;
+
+      @include font-size(86px, 82px);
+    }
+
+    .slide__byline {
+      text-shadow: 0 3px 10px rgba(0, 0, 0, 0.45);
+      color: #fff;
+      font-family: $ff-tav;
+      font-style: italic;
       line-height: 1;
-
-      &::first-line {
-        color: #1d5575;
-        font-weight: 900;
-      }
-
-      @include font-size(53px, 48px);
+      margin-bottom: 10px;
+      font-weight: 500;
     }
 
-    .stars {
-      padding-top: 20px;
-      padding-bottom: 25px;
-    }
-
-    .copy {
-      color: #332a46;
-      font-weight: 400;
-      margin-bottom: 25px;
-      padding-right: 45px;
+    .slide__copy {
+      color: #fff;
+      margin-bottom: 15px;
+      margin-top: 5px;
+      letter-spacing: 1px;
       line-height: 1.4;
-      letter-spacing: -1px;
+    }
 
-      @include font-size(20px, 18px, 18px, 20px, 19px);
+    .slide__stars {
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+
+    .slider-caption {
+      min-width: 600px;
     }
   }
 
   .slide3 {
-    .title--no-insure {
-      color: #1d5575;
-      margin-bottom: 5px;
-      line-height: 1;
+    .slide__title {
+      text-shadow: 0 3px 10px rgba(0, 0, 0, 0.45);
+      color: #fff;
+      line-height: 0.9;
+      margin-bottom: 0;
+      font-family: $ff-raleway;
+      font-weight: 700;
 
-      @include font-size(83px, 75px, 35px);
+      @include font-size(125px, 115px);
     }
 
-    .title--sub {
-      color: #f05423;
-      font-weight: 700;
+    .slide__byline {
+      text-shadow: 0 3px 10px rgba(0, 0, 0, 0.45);
+      color: #fff;
+      font-family: $ff-tav;
       font-style: italic;
       line-height: 1;
       margin-bottom: 10px;
+      font-weight: 500;
 
-      @include font-size(43px, 35px, 35px);
+      @include font-size(43px, 41px);
     }
 
-    .preventative-copy {
-      color: #303030;
-      line-height: 1;
-      padding-top: 10px;
+    .slide__copy {
+      color: #fff;
+      margin-bottom: 20px;
+      margin-top: 45px;
+      letter-spacing: 1px;
+      line-height: 1.4;
 
-      @include font-size(38px, 32px);
-    }
-
-    .btn {
-      @include lr-padding(80px, 60px, 60px);
+      @include font-size(26px, 24px);
     }
   }
 
