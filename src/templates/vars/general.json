@@ -17,7 +17,11 @@
   "socialMediaLinks": [
     {
       "media": "facebook",
-      "link": "https://www.facebook.com/Chalet-Dental-Clinic-195438440743/"
+      "link": "https://www.facebook.com/poulsbodentist/"
+    },
+    {
+      "link": "https://www.google.com/maps/place/Peterson+Jeromy+A+DDS/@47.7381209,-122.6414042,17z/data=!3m1!4b1!4m7!3m6!1s0x0:0x9953fff2777470b!8m2!3d47.7381209!4d-122.6392155!9m1!1b1",
+      "media": "google-plus"
     }
   ]
 }

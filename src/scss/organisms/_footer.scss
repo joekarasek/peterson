@@ -1,11 +1,17 @@
 //Overrides for Canvas
 #footer {
   position: relative;
+  background-image: url(/assets/cta-pattern.png);
+  background-repeat: repeat;
   background-color: #183163;
-  border-top: solid 4px #96cb43;
 
   a {
     @include link-color(#fff);
+  }
+
+  img {
+    max-width: 135px;
+    padding-right: 15px;
   }
 
   p {
