@@ -2,11 +2,11 @@ a.btn,
 button.btn {
   font-family: $ff-lato;
   font-weight: 700 !important;
-  //background-color: #10a9a4;
-  background: radial-gradient(circle at center, #ff7c00 0, #ffab00 100%);
+  background-color: #3dbe8b;
+  //background: radial-gradient(circle at center, #ff7c00 0, #ffab00 100%);
   color: #fff;
-  border-radius: 15px;
-  border: solid 3px #fff;
+  border-radius: 0;
+  border: solid 2px #fff;
   padding: 10px 50px;
   //box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.36);
 
@@ -14,7 +14,8 @@ button.btn {
 
   &:hover,
   &:focus {
-    background: radial-gradient(circle at center, #c96200 0, #c68500 100%);
+    //background: radial-gradient(circle at center, #c96200 0, #c68500 100%);
+    background-color: #57d4a2;
     color: #fff;
     //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.46);
     transition: all 0.3s ease;

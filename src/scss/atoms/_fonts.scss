@@ -11,7 +11,7 @@ body {
 }
 
 p {
-  font-family: $ff-open;
+  font-family: $ff-lato;
   margin-bottom: $spacing-sm;
   font-size: 16px;
 }
@@ -28,7 +28,7 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: $ff-roboto-condensed;
+  font-family: $ff-lato;
   font-weight: 400;
   //letter-spacing: -1.5px;
 }
@@ -93,6 +93,7 @@ h1 {
 .h2,
 h2 {
   text-transform: none;
+  font-family: $ff-raleway;
 
   @include h2();
 
