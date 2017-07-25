@@ -2,11 +2,19 @@
 //    Dependencies
 //=============================
 @import "bootstrap";
+@import "elastic";
+@import "camera";
+@import "calendar";
+@import "colors";
+@import "font-icons-snapchat";
+@import "nivo-slider";
+@import "vmap";
 @import "animate";
 @import "dark";
 @import "font-icons";
 @import "swiper";
 @import "canvas";
+@import "magnific-popup";
 @import "responsive";
 //=============================
 //      Custom Styles
@@ -16,9 +24,9 @@
 @import "molecules/*";
 @import "organisms/*";
 
-//=============================
-//      Shame Styles
-//=============================
+//================================
+//  Shame Styles/ Canvas Fixes
+//================================
 
 .link-no-style:hover {
   text-decoration: none !important;
@@ -36,4 +44,9 @@
 
 a[data-target^="#team-"]:hover {
   text-decoration: none;
+}
+
+//Fixes lightbox width on mobile devices
+.mfp-wrap {
+  width: 100vw;
 }

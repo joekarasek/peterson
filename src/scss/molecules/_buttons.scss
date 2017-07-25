@@ -37,14 +37,14 @@ button.btn {
 
   &.btn--style-three {
     background-image: none;
-    background-color: #2a4d92;
+    background-color: #4862a3;
     color: #fff;
-    border-color: #183163;
-    //box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.36);
+    border-color: #fff;
+    box-shadow: inset 0 0 15px #282e3d;
 
     &:hover,
     &:focus {
-      background-color: darken(#f06123, 15%);
+      background-color: darken(#4862a3, 15%);
       //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.d46);
     }
   }

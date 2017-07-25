@@ -72,6 +72,11 @@
   });
   HelloWorldDevsTysonSteele.updateCopyright('.js-copyright-year');
 
+  $('#smile-gallery-remote').click(function(event) {
+    event.preventDefault();
+    $('#smile-gallery-modal').click();
+  });
+
   // ======= Google Maps =======
   HelloWorldDevsTysonSteele.googleMap('#google-map5', '47.7381209,-122.6392155', '47.7381209,-122.6392155');
 
