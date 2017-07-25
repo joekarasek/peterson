@@ -17,8 +17,8 @@
     items: 1,
     margin: 40,
     navText: [
-      '<img src="assets/team-left-arrow.png">',
-      '<img src="assets/team-right-arrow.png">'
+      '<img src="assets/tour-left.png">',
+      '<img src="assets/tour-right.png">'
     ],
     autoHeight: true
   });
