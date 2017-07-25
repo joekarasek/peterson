@@ -25,11 +25,40 @@
   HelloWorldDevsTysonSteele.tourCarousel('.js-services-carousel', {
     items: 1,
     margin: 40,
+    nav: true,
     navText: [
-      '<img src="assets/arrow-left.png">',
-      '<img src="assets/right-arrow.png">'
+      '<img src="assets/tour-left.png">',
+      '<img src="assets/tour-right.png">'
     ],
     autoHeight: true
+  });
+  HelloWorldDevsTysonSteele.tourCarousel('.js-services-carousel--two', {
+    items: 1,
+    loop: true,
+    autoplay: true,
+    autoplaySpeed: 500,
+    autoplayTimeout: 2000,
+    autoplayHoverPause:false,
+    autoWidth: false,
+    nav: true,
+    navText: [
+      '<img src="assets/tour-left.png">',
+      '<img src="assets/tour-right.png">'
+    ],
+    dots: false,
+    margin: 15,
+    slideBy: 1,
+    responsive: {
+      550: {
+        items: 2
+      },
+      768: {
+        items: 3
+      },
+      1200: {
+        items: 4
+      }
+    }
   });
   HelloWorldDevsTysonSteele.associationCarousel('.js-associations-carousel', {
     items: 2,
