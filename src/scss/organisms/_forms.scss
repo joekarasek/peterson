@@ -1,81 +1,18 @@
 #section-forms {
-  background-color: #fff;
-  padding-top: 45px;
-  margin-bottom: -20px;
+  padding: 45px 0 60px;
+  background-image: url(/assets/bkgd-pattern-light.png);
+  background-repeat: repeat;
 
-  .heading {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 15px;
-
-    &__title {
-      color: #1e5879;
-      line-height: 1;
-      padding-bottom: 0;
-      padding-top: 10px;
-      margin-bottom: 0;
-    }
+  .forms__title {
+    margin-bottom: 15px;
+    line-height: 1;
+    color: #282e3d;
   }
 
-  .container {
-    border: solid 1px #3e5e9c;
-    padding-bottom: 30px;
-  }
-
-  .forms {
-    &__byline {
-      color: #424242;
-      font-size: 18px;
-      padding-bottom: 15px;
-    }
-
-    &__copy {
-      color: #3e3e3e;
-
-      a {
-        //text-decoration: underline;
-
-        &:hover {
-          color: #3e3e3e;
-        }
-      }
-    }
-
-    &__btn-wrapper {
-      padding-bottom: 30px;
-    }
-  }
-
-  .btn {
-    margin: 10px 0;
-    padding: 10px 20px;
-    width: 270px;
-  }
-
-  .line-break {
-    display: none;
-  }
-
-  @media (min-width: 768px) {
-    .btn {
-      width: 360px;
-      margin-left: 15px;
-      margin-right: 15px;
-    }
-
-    .forms__btn-wrapper {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .line-break {
-      display: inline-block;
-      height: 54px;
-      width: 1px;
-      background: #1a202a;
-      line-height: 0;
-      margin-bottom: 0;
-    }
+  .forms__copy {
+    line-height: 1.2;
+    color: #284691;
+    font-family: $ff-tav;
+    font-style: italic;
   }
 }
