@@ -5,7 +5,7 @@ module.exports = {
     watchFiles: [],
     baseDir: 'build/',
     startPath: '/',
-    openBrowserAtStart: false,
+    openBrowserAtStart: true,
     // requires above to be true; allows non-default browser to open
     browser: [
       'Google Chrome',
@@ -16,19 +16,23 @@ module.exports = {
   css: {
     enabled: true,
     source: [
-      'src/scss/styles.scss',
+      'src/scss/custom.scss',
+    ],
+    dependencies: [
+      'src/canvas/styles.scss',
     ],
     includePaths: [
       'src/canvas/css/',
     ],
     dest: 'build/css/',
+    dependenciesDest: 'build/css/',
     watchPaths: [
       'src/scss/**/*.scss'
     ],
     lint: false,
     // outputStyles maybe 'expanded', 'compressed', 'nested'
     outputStyle: 'expanded',
-    sourceMapEmbed: true,
+    sourceMapEmbed: false,
     sourceComments: false,
     autoPrefixerBrowsers: [
       'last 2 versions',
