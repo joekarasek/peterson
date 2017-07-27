@@ -31,3 +31,9 @@ a[data-target^="#team-"]:hover {
 .marquee img {
   width: 100%;
 }
+
+iframe[src^="https://birdeye"] {
+  @media (max-width: 767px) {
+    max-height: 600px;
+  }
+}

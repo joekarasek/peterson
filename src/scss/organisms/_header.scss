@@ -66,21 +66,21 @@
     #logo {
       a {
         text-align: right;
-        margin-left: 15px;
-        margin-right: auto;
-        padding-right: 30px;
+        margin-left: auto;
+        margin-right: 15px;
+        padding-left: 30px;
       }
 
       img {
-        margin-right: auto;
+        margin-left: auto;
         padding: $spacing-xs;
-        max-width: 300px;
+        max-width: 240px;
       }
     }
 
     #primary-menu-trigger {
-      right: 10px;
-      left: auto;
+      right: auto;
+      left: 10px;
       color: #343b42;
     }
   }

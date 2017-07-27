@@ -86,13 +86,16 @@
     }
   });
   HelloWorldDevsTysonSteele.pyramidCarousel('.js-team-carousel', {
-    items: 2,
+    items: 1,
     autoplay: true,
     navText: [
       '<img src="assets/tour-left.png">',
       '<img src="assets/tour-right.png">'
     ],
     responsive: {
+      550: {
+        items: 2
+      },
       768: {
         items: 3
       },

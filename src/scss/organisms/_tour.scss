@@ -4,6 +4,11 @@
   padding-bottom: 60px;
   position: relative;
 
+  .owl-carousel .owl-nav [class*=owl-],
+  .owl-carousel:hover .owl-nav .owl-next {
+    opacity: 1;
+  }
+
   .heading {
     margin-bottom: 25px;
 

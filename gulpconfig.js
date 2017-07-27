@@ -32,7 +32,7 @@ module.exports = {
     lint: false,
     // outputStyles maybe 'expanded', 'compressed', 'nested'
     outputStyle: 'expanded',
-    sourceMapEmbed: false,
+    sourceMapEmbed: true,
     sourceComments: false,
     autoPrefixerBrowsers: [
       'last 2 versions',

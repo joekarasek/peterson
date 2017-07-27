@@ -1,4 +1,4 @@
-//Overrides for Canvas
+
 #footer {
   position: relative;
   background-image: url(/assets/cta-pattern.png);
@@ -9,9 +9,14 @@
     @include link-color(#fff);
   }
 
-  img {
-    max-width: 135px;
-    padding-right: 15px;
+  .award-image {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 105px;
+
+    @media (min-width: 992px) {
+      max-width: 135px;
+    }
   }
 
   p {
@@ -68,7 +73,7 @@
     justify-content: space-between;
     align-items: center;
 
-    @media (max-width: $width-sm) {
+    @media (max-width: $width-md) {
       flex-direction: column;
 
       .text {
