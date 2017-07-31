@@ -69,7 +69,7 @@
       font-family: $ff-raleway;
       font-weight: 700;
 
-      @include font-size(86px, 82px);
+      @include font-size(86px, 76px);
     }
 
     .slide__byline {
@@ -78,8 +78,12 @@
       font-family: $ff-tav;
       font-style: italic;
       line-height: 1;
-      margin-bottom: 10px;
+      margin-bottom: 2px;
       font-weight: 500;
+
+      @media (min-width: 1200px) {
+        margin-bottom: 10px;
+      }
     }
 
     .slide__copy {
@@ -88,11 +92,17 @@
       margin-top: 5px;
       letter-spacing: 1px;
       line-height: 1.4;
+
+      @include font-size(24px, 16px);
     }
 
     .slide__stars {
-      margin-top: 30px;
+      margin-top: 15px;
       margin-bottom: 10px;
+
+      @media (min-width: 1200px) {
+        margin-bottom: 30px;
+      }
     }
 
     .slider-caption {
@@ -109,7 +119,7 @@
       font-family: $ff-raleway;
       font-weight: 700;
 
-      @include font-size(125px, 115px);
+      @include font-size(125px, 105px);
     }
 
     .slide__byline {
@@ -118,20 +128,28 @@
       font-family: $ff-tav;
       font-style: italic;
       line-height: 1;
-      margin-bottom: 10px;
+      margin-bottom: 5px;
       font-weight: 500;
 
       @include font-size(43px, 41px);
+
+      @media (min-width: 1200px) {
+        margin-bottom: 10px;
+      }
     }
 
     .slide__copy {
       color: #fff;
       margin-bottom: 20px;
-      margin-top: 45px;
+      margin-top: 20px;
       letter-spacing: 1px;
       line-height: 1.4;
 
       @include font-size(26px, 24px);
+
+      @media (min-width: 1200px) {
+        margin-top: 40px;
+      }
     }
   }
 

@@ -6,6 +6,8 @@
   background-color: #183163;
 
   a {
+    text-decoration: underline !important;
+
     @include link-color(#fff);
   }
 

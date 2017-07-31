@@ -60,6 +60,28 @@
       }
     }
   });
+  HelloWorldDevsTysonSteele.tourCarousel('.js-services-carousel--mobile', {
+    items: 1,
+    loop: true,
+    autoplay: true,
+    autoplaySpeed: 500,
+    autoplayTimeout: 2000,
+    autoplayHoverPause:false,
+    autoWidth: false,
+    nav: true,
+    navText: [
+      '<img src="assets/tour-left.png">',
+      '<img src="assets/tour-right.png">'
+    ],
+    dots: false,
+    margin: 15,
+    slideBy: 1,
+    responsive: {
+      550: {
+        items: 2
+      }
+    }
+  });
   HelloWorldDevsTysonSteele.associationCarousel('.js-associations-carousel', {
     items: 2,
     loop: true,

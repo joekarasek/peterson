@@ -86,6 +86,34 @@
       "modalTarget": "apnea",
       "text": ["Obstructive sleep apnea occurs when the airway completely collapses, blocking airflow into the lungs. The harder one tries to breathe, the tighter the airway seals. This airway obstruction persists until the brain partially awakens the person, unconsciously closing the jaw and returning the tongue and throat to a normal position.",
         "We offer effective, nonsurgical relief from sleep apnea and other sleep-related disorders—including snoring. Ask us how you can get the restful, healthy sleep you’ve been missing."]
+    },
+    {
+      "doubleWide": false,
+      "title": "Cosmetic Dentistry",
+      "titleMobil": false,
+      "titleFull": "Cosmetic Dentistry",
+      "image": "cosmetic.jpg",
+      "modalTarget": "cosmetic",
+      "text": ["Cosmetic dentistry is one of the most cost-effective ways to improve your appearance. A beautiful, bright, healthy smile will increase self-confidence and overall life satisfaction. Cosmetic dentistry includes things like tooth-colored restorations, dental implants, and crowns. We have many options, so please call us today!"]
+    },
+    {
+      "doubleWide": false,
+      "title": "Sedation Dentistry",
+      "titleMobil": false,
+      "titleFull": "Sedation Dentistry",
+      "image": "sedation.jpg",
+      "modalTarget": "sedation",
+      "text": ["Sedation dentistry is an excellent treatment for patients with extensive dental needs, or who are concerned about anxiety, difficulty getting numb, or sensitive teeth."]
+    },
+    {
+      "doubleWide": false,
+      "title": "Dental Implants",
+      "titleMobil": false,
+      "titleFull": "Dental Implants",
+      "image": "implants.jpg",
+      "modalTarget": "implants",
+      "text": ["Dental implants are a great option for replacing missing teeth, improving chewing ability, eliminating bridges, and replacing dentures.",
+      "Several implants may provide a base for a series of artificial teeth known as a fixed bridge. Implants can even be used to secure a full set of removable dentures for people who have no remaining natural teeth."]
     }
   ]
 }
